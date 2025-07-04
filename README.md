@@ -1,2 +1,2 @@
 # fetal-sleep
-This repository contains the code and datasets for quantifying the association between maternal and fetal rhythms (multi-level model) as well as identifying the predictors of early sleep regulation development from in utero to 6 months of age (random forest). The corresponding DOI will be added upon publication.
+This repository contains the code and datasets for quantifying the association between maternal and fetal rhythms (multi-level model) as well as identifying the predictors of early sleep regulation development from in utero to 6 months of age (random forest). The corresponding DOI will be added upon publication. If you wish to reuse any part of this repository, please reach out to andjela.markovic@unibe.ch.
