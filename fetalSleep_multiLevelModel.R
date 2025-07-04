@@ -3,16 +3,10 @@
 
 library(tidyverse)
 library(lmerTest)
-library(lubridate)
 library(performance)
-library(sjPlot)
-library(sjmisc)
-library(ggplot2)
-library(emmeans)
-library(ggeffects)
 
 # load data
-load("FetalData.RData")
+load("fetalSleep_multiLevelModel.RData")
 
 # run models with fetal activity as outcome nested within days
 allData$subject <- as.factor(allData$subject)
