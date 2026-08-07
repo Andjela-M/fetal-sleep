@@ -1,7 +1,7 @@
 # fetal-sleep
 This repository contains the code and datasets to quantify associations between maternal and fetal rhythms using multi-level models, and to identify predictors of early sleep regulation from the fetal period to 6 months of age using random forest analyses. 
 
-The corresponding DOI will be added upon publication. 
+Archived release: https://doi.org/10.5281/zenodo.21842441
 
 If you wish to reuse any part of this repository, please contact: andjela.markovic@unibe.ch
 
@@ -19,7 +19,6 @@ The file contains the following object:
 The corresponding script, `fetalSleep_multiLevelModel.R`, fits a series of linear mixed-effects models using `lmerTest`, with fetal activity (`bellyAbsZ`) as the outcome. Models of increasing complexity are evaluated, including a null model with a participant-level random intercept, a fixed-effects model, a model including participant-specific random intercepts and slopes for recording day, and a final interaction model.
 
 The final interaction model includes interactions between maternal vigilance state, gestational age, and maternal wrist temperature, as well as between maternal vigilance state, gestational age, and maternal activity. Twin pregnancy, in-vitro fertilization, diabetes, and nulliparity are included as additional covariates. Model fit is summarized using AIC and functions from the `performance` package.
-
 
 ## Random forest analyses
 ### `fetalSleep_randomForest.mat`
@@ -49,3 +48,9 @@ The archive contains:
 
 - `Figure2_left_measured.mat` – abdominal acceleration data underlying the left example shown in Figure 2.
 - `Figure2_right_measured.mat` – abdominal acceleration data underlying the right example shown in Figure 2.
+
+## Citation
+
+The archived version of this repository is available on Zenodo:
+
+Markovic, A. (2026). Andjela-M/fetal-sleep: fetal-sleep v1.0.0 (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21842442
