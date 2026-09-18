@@ -1,14 +1,16 @@
 # fetal-sleep
-This repository contains the code and datasets to quantify associations between maternal and fetal rhythms using multi-level models, and to identify predictors of early sleep regulation from the fetal period to 6 months of age using random forest analyses. 
+This repository contains the code and non-identifiable source data to quantify associations between maternal and fetal rhythms using multi-level models, and to identify predictors of early sleep regulation from the fetal period to 6 months of age using random forest analyses. 
 
 Archived release: https://doi.org/10.5281/zenodo.21842441
 
-If you wish to reuse any part of this repository, please contact: andjela.markovic@unibe.ch
+For questions regarding reuse or collaboration, please contact: andjela.markovic@unibe.ch
 
 ## Multi-level models
 ### `fetalSleep_multiLevelModel.RData`
 
 Contains the input data required to run `fetalSleep_multiLevelModel.R` and reproduce the multi-level linear mixed-effects analyses of fetal activity.
+
+This participant-level input dataset is not included in this public repository. It is available under restricted access on Zenodo at https://doi.org/10.5281/zenodo.22826738.
 
 The file contains the following object:
 
@@ -24,6 +26,8 @@ The final interaction model includes interactions between maternal vigilance sta
 ### `fetalSleep_randomForest.mat`
 
 Contains the input data required to run `fetalSleep_randomForest.m` and reproduce the random forest analyses, including feature-importance estimates and partial dependence plots for early postnatal, 3-month, and 6-month day/night sleep ratios.
+
+This participant-level input dataset is not included in this public repository. It is available under restricted access on Zenodo at https://doi.org/10.5281/zenodo.22826738.
 
 The file contains the following variables:
 
