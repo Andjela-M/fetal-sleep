@@ -1,7 +1,7 @@
 # fetal-sleep
 This repository contains the code and non-identifiable source data to quantify associations between maternal and fetal rhythms using multi-level models, and to identify predictors of early sleep regulation from the fetal period to 6 months of age using random forest analyses. 
 
-Archived release: https://doi.org/10.5281/zenodo.21842441
+Archived release: https://doi.org/10.5281/zenodo.22830642
 
 For questions regarding reuse or collaboration, please contact: andjela.markovic@unibe.ch
 
@@ -53,8 +53,14 @@ The archive contains:
 - `Figure2_left_measured.mat` – abdominal acceleration data underlying the left example shown in Figure 2.
 - `Figure2_right_measured.mat` – abdominal acceleration data underlying the right example shown in Figure 2.
 
+## License
+
+The analysis code in this repository is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+The non-identifiable source data are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
 ## Citation
 
 The archived version of this repository is available on Zenodo:
 
-Markovic, A. (2026). Andjela-M/fetal-sleep: fetal-sleep v1.0.0 (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21842442
+Markovic, A. (2026). Code and source data for analyses of maternal and fetal rhythms and early sleep regulation [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22830642
