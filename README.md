@@ -44,7 +44,7 @@ The corresponding script, `fetalSleep_randomForest.m`, performs 10-fold cross-va
 
 ## Additional source data
 
-Additional source data generated in this study are provided with the published article. The corresponding DOI will be added upon publication.
+Additional source data generated in this study are provided with the published article: https://doi.org/10.1038/s41467-026-78754-9
 
 Source data underlying the exemplary abdominal acceleration signals shown in Figure 2 are provided in this repository as `exemplaryAbdominalSignals.zip`.
 
@@ -64,3 +64,7 @@ The non-identifiable source data are licensed under the Creative Commons Attribu
 The archived version of this repository is available on Zenodo:
 
 Markovic, A. (2026). Code and source data for analyses of maternal and fetal rhythms and early sleep regulation [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22830642
+
+The associated publication is:
+
+Markovic, A., Blume, C., Mühlematter, C. et al. Association of fetal activity patterns in utero with postnatal sleep behavior. Nat Commun (2026). https://doi.org/10.1038/s41467-026-78754-9
